@@ -1,0 +1,13 @@
+・URLの本質
+http://www.google.com
+これはURLの後ろにファイルの記述が省略されている。
+→http://www.google.com/index.html
+のような形。また、ファイルだけでなく、フォルダ名が省略されている場合もある。
+→http://www.google.com/google/index.html
+
+もし、http://www.google.com/google のように最後の/googleがファイルなのかフォルダ
+なのか判断できない場合は、そのドメイン（URL）内の中に同じ名前のフォルダがあるのか
+ファイルがあるのかどっちなのかを自動的に判断してURLを認識している。
+
+また、http://www.google.com のようにドメイン(URL)のみの表示の場合はそのドメイン(URL)の
+ディレクトリ内のindex.htmlもしくは/dir/default.htmに自動的にアクセスされる。
